@@ -1,0 +1,28 @@
+/* .Star{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: 'Inter var', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #ddd;
+  background: #12071f;
+} */
+
+h1 {
+  position: absolute;
+  top: 120px;
+  left: 60px;
+  font-weight: 900;
+  font-size: 5em;
+  margin: 0;
+  color: peru;
+  
+  letter-spacing: -2px;
+  text-align: left;
+}
+
+h1 > span {
+  white-space: pre;
+}
